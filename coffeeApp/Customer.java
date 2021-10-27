@@ -3,36 +3,31 @@ package coffeeApp;
 import java.util.Date;
 
 public class Customer implements ICustomer {
-	int id;
+	String nationalityId;
 	String firstName;
 	String lastName;
-	Date dateOfBirth;
-	String nationalityId;
+	int dateOfBirth;
+
 	
 	public Customer(){
 		
 	}
-	
-	
-	public Customer(int id, String firstName, String lastName, Date dateOfBirth, String nationalityId) {
+	/*public Customer(int id, String firstName, String lastName, Date dateOfBirth, long nationalityId) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.dateOfBirth = dateOfBirth;
 		this.nationalityId = nationalityId;
+	}*/
+	public Customer(String nationalityId, String firstName, String lastName, int dateOfBirth) {
+		super();
+		this.nationalityId = nationalityId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dateOfBirth = dateOfBirth;
+		
 	}
-
-
-	public int getId() {
-		return id;
-	}
-
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 
 	public String getFirstName() {
 		return firstName;
@@ -54,12 +49,12 @@ public class Customer implements ICustomer {
 	}
 
 
-	public Date getDateOfBirth() {
+	public int getDateOfBirth() {
 		return dateOfBirth;
 	}
 
 
-	public void setDateOfBirth(Date dateOfBirth) {
+	public void setDateOfBirth(int dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
