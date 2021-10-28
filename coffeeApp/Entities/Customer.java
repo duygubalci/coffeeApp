@@ -1,6 +1,8 @@
-package coffeeApp;
+package coffeeApp.Entities;
 
 import java.util.Date;
+
+import coffeeApp.Abstract.ICustomer;
 
 public class Customer implements ICustomer {
 	String nationalityId;

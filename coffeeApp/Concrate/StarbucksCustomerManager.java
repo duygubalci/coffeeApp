@@ -1,4 +1,8 @@
-package coffeeApp;
+package coffeeApp.Concrate;
+
+import coffeeApp.Abstract.BaseCustomerManager;
+import coffeeApp.Abstract.ICustomerCheckService;
+import coffeeApp.Entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager{
 	private ICustomerCheckService customerCheckService;

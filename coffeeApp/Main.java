@@ -1,4 +1,10 @@
 package coffeeApp;
+
+import coffeeApp.Abstract.BaseCustomerManager;
+import coffeeApp.Adapters.MernisServiceAdapter;
+import coffeeApp.Concrate.StarbucksCustomerManager;
+import coffeeApp.Entities.Customer;
+
 ;
 
 public class Main {

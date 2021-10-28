@@ -1,4 +1,6 @@
-package coffeeApp;
+package coffeeApp.Abstract;
+
+import coffeeApp.Entities.Customer;
 
 public abstract class BaseCustomerManager implements ICustomer {
 

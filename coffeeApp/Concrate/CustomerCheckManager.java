@@ -1,7 +1,9 @@
-package coffeeApp;
+package coffeeApp.Concrate;
 
 import java.rmi.RemoteException;
 
+import coffeeApp.Abstract.ICustomerCheckService;
+import coffeeApp.Entities.Customer;
 import tr.gov.nvi.tckimlik.WS.KPSPublic;
 import tr.gov.nvi.tckimlik.WS.KPSPublicLocator;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoap;
